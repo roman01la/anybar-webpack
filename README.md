@@ -14,7 +14,7 @@ npm i -D anybar-webpack
 Use it in your `webpack.config.js`:
 
 ```javascript
-var AnybarWebpackPlugin = require('./bin/anybar-webpack');
+var AnybarWebpackPlugin = require('anybar-webpack');
 
 module.exports = {
     // ...
