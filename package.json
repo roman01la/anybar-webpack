@@ -5,7 +5,7 @@
   "bin": {
     "anybar-webpack": "bin/anybar-webpack.js"
   },
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "author": "Roman Liutikov <roman01la@romanliutikov.com>",
   "license": "MIT",
   "bugs": {
