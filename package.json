@@ -1,0 +1,30 @@
+{
+  "name": "anybar-webpack",
+  "version": "1.0.0",
+  "description": "Webpack plugin for AnyBar",
+  "bin": {
+    "anybar-webpack": "bin/anybar-webpack.js"
+  },
+  "main": "./lib/index.js",
+  "author": "Roman Liutikov <roman01la@romanliutikov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roman01la/anybar-webpack/issues"
+  },
+  "homepage": "https://github.com/roman01la/anybar-webpack",
+  "keywords": [
+    "anybar",
+    "nanybar",
+    "status",
+    "notification",
+    "webpack",
+    "plugin"
+  ],
+  "dependencies": {
+    "nanybar": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roman01la/anybar-webpack.git"
+  }
+}
