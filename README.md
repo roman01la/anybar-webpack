@@ -1,5 +1,5 @@
 # AnybarWebpackPlugin
-[Webpack](http://webpack.github.io/) build status plugin for [AnyBar](https://github.com/tonsky/AnyBar) status indicator for OS X using [nanybar](https://github.com/rumpl/nanybar) node interface.
+[Webpack](http://webpack.github.io/) build status plugin for [AnyBar](https://github.com/tonsky/AnyBar) status indicator app for OS X.
 
 ## Install
 
