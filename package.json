@@ -1,9 +1,13 @@
 {
   "name": "anybar-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack plugin for AnyBar",
   "bin": {
     "anybar-webpack": "bin/anybar-webpack.js"
+  },
+  "scripts": {
+    "postinstall": "npm run-script place-icons",
+    "place-icons": "mkdir -p ~/.AnyBar && cp ./lib/icons/webpack-* ~/.AnyBar/"
   },
   "main": "lib/index.js",
   "author": "Roman Liutikov <roman01la@romanliutikov.com>",

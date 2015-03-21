@@ -1,6 +1,8 @@
 # AnybarWebpackPlugin
 [Webpack](http://webpack.github.io/) build status plugin for [AnyBar](https://github.com/tonsky/AnyBar) status indicator app for OS X.
 
+![anybar webpack plugin animated gif demo](anybar-webpack.gif)
+
 ## Install
 
 Make sure you have [AnyBar](https://github.com/tonsky/AnyBar) installed and running
@@ -28,4 +30,4 @@ module.exports = {
 
 ## ToDo
 
-- [ ] Custom status icons
+- [x] Custom status icons
