@@ -26,7 +26,6 @@ module.exports = {
     // ...
 };
 ```
-[`NoErrorsPlugin`](http://webpack.github.io/docs/list-of-plugins.html#noerrorsplugin) plugin suppresses compilation errors, so if you are using one, be sure to include it after `AnybarWebpackPlugin`.
 
 ## ToDo
 
