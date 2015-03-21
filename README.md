@@ -27,6 +27,8 @@ module.exports = {
 };
 ```
 
+If you are running AnyBar on different port than default 1738, pass port number to `AnybarWebpackPlugin` constructor function.
+
 ## ToDo
 
 - [x] Custom status icons
