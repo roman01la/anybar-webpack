@@ -1,6 +1,6 @@
 {
   "name": "anybar-webpack",
-  "version": "1.0.4",
+  "version": "1.0.4-non-macos",
   "description": "Webpack plugin for AnyBar",
   "bin": {
     "anybar-webpack": "bin/anybar-webpack.js"
