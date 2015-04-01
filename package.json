@@ -6,8 +6,7 @@
     "anybar-webpack": "bin/anybar-webpack.js"
   },
   "scripts": {
-    "postinstall": "npm run-script place-icons",
-    "place-icons": "mkdir -p ~/.AnyBar && cp ./lib/icons/webpack-* ~/.AnyBar/"
+    "postinstall": "node lib/postinstall"
   },
   "main": "lib/index.js",
   "author": "Roman Liutikov <roman01la@romanliutikov.com>",
