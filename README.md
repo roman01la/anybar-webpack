@@ -1,11 +1,11 @@
 # AnybarWebpackPlugin
-[Webpack](http://webpack.github.io/) build status plugin for [AnyBar](https://github.com/tonsky/AnyBar) status indicator app for OS X.
+[Webpack](http://webpack.github.io/) build status plugin for [AnyBar](https://github.com/tonsky/AnyBar) status indicator app on OS X or [somebar](https://github.com/limpbrains/somebar) on Linux.
 
 ![anybar webpack plugin animated gif demo](anybar-webpack.gif)
 
 ## Install
 
-Make sure you have [AnyBar](https://github.com/tonsky/AnyBar) installed and running
+Make sure you have [AnyBar](https://github.com/tonsky/AnyBar) or [somebar](https://github.com/limpbrains/somebar) installed and running
 
 ```
 npm i -D anybar-webpack
@@ -27,8 +27,4 @@ module.exports = {
 };
 ```
 
-If you are running AnyBar on different port than default 1738, pass port number to `AnybarWebpackPlugin` constructor function.
-
-## ToDo
-
-- [x] Custom status icons
+If you are running AnyBar or somebar on different port than default 1738, pass port number to `AnybarWebpackPlugin` constructor function.
