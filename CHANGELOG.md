@@ -2,5 +2,5 @@
 
   Added:
 
-    - Support Linux (Ubuntu) installation for [somebar](https://github.com/limpbrains/somebar) app
-    - Icons in white color
+  - Support Linux (Ubuntu) installation for [somebar](https://github.com/limpbrains/somebar) app
+  - Icons in white color
