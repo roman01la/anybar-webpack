@@ -6,6 +6,7 @@
     "anybar-webpack": "bin/anybar-webpack.js"
   },
   "scripts": {
+    "test": "node test/anybar-client.test.js",
     "postinstall": "node lib/postinstall"
   },
   "main": "lib/index.js",
