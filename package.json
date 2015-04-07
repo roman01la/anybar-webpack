@@ -1,7 +1,7 @@
 {
   "name": "anybar-webpack",
   "version": "1.0.6",
-  "description": "Webpack plugin for AnyBar",
+  "description": "Webpack build status plugin for menubar status indicator applications",
   "bin": {
     "anybar-webpack": "bin/anybar-webpack.js"
   },
