@@ -1,5 +1,6 @@
 [![npm version](https://badge.fury.io/js/anybar-webpack.svg)](http://badge.fury.io/js/anybar-webpack)
 [![Build Status](https://travis-ci.org/roman01la/anybar-webpack.svg?branch=master)](https://travis-ci.org/roman01la/anybar-webpack)
+[![NPM Downloads](https://img.shields.io/npm/dm/anybar-webpack.svg?style=flat)](https://www.npmjs.org/package/anybar-webpack)
 
 # AnyBarWebpackPlugin
 [Webpack](http://webpack.github.io/) build status plugin for status bar indicator applications.
