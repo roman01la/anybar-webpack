@@ -2,7 +2,8 @@ var dgram = require('dgram');
 var anyBarClient = require('../lib/anybar-client');
 
 var cmd = 'test',
-    port = 1799;
+    port = 1799,
+    host = '0.0.0.0';
 
 var testMsg = 'Should receive command: ' + cmd;
 
@@ -22,4 +23,4 @@ var server = dgram.createSocket('udp4', function (msg) {
 
 server.bind(port);
 
-anyBarClient(cmd, port);
+anyBarClient(cmd, port, host);

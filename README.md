@@ -36,4 +36,19 @@ module.exports = {
 };
 ```
 
-If you are running status bar application on a different port than default 1738, pass port number to `AnyBarWebpackPlugin` constructor function.
+## API 
+
+### `new AnyBarWebpackPlugin([port [, host]])`
+All arguments are optional. If you want to pass the `host` argument, you need to pass a `port` first.
+
+### `port`
+Type: `Number`
+Default: `1738`
+
+The port the status bar application is running on.
+
+### `host`
+Type: `String`
+Default: `'127.0.0.1'`
+
+The host the status bar application is running on.
