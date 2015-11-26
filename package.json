@@ -26,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/roman01la/anybar-webpack.git"
+  },
+  "dependencies": {
+    "node-notifier": "^4.3.1"
   }
 }
