@@ -7,6 +7,12 @@
 
 ![anybar webpack plugin animated gif demo](anybar-webpack.gif)
 
+Now with cross-platform native notifications, thanks to [node-notifier](https://github.com/mikaelbr/node-notifier).
+
+![anybar webpack plugin notification demo](notification.jpg)
+
+*__Note__: Notifies only about build errors.*
+
 ## Known apps
 
 - [AnyBar](https://github.com/tonsky/AnyBar) on OS X
@@ -36,7 +42,7 @@ module.exports = {
 };
 ```
 
-## API 
+## API
 
 ### `new AnyBarWebpackPlugin([port [, host]])`
 All arguments are optional. If you want to pass the `host` argument, you need to pass a `port` first.
