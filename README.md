@@ -18,6 +18,11 @@ Now with cross-platform native notifications, thanks to [node-notifier](https://
 - [AnyBar](https://github.com/tonsky/AnyBar) on OS X
 - [somebar](https://github.com/limpbrains/somebar) on Linux
 
+## Known issues
+
+### No notifications when running from tmux
+Please, follow [this instructions](https://github.com/julienXX/terminal-notifier/issues/115#issuecomment-104214742). After that, update tmux config: `tmux source-file ~/.tmux.conf`.
+
 ## Installation
 
 Make sure you have an application installed and running
