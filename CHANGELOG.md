@@ -10,3 +10,9 @@
   Added:
 
   - Show compilation error notification using `node-notifier`
+
+## 1.2.0
+
+  Changed:
+
+  - Notifications are disabled by default. Enable by passing options object with field `enableNotifications: true`.

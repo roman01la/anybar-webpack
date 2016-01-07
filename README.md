@@ -41,7 +41,9 @@ var AnyBarWebpackPlugin = require('anybar-webpack');
 module.exports = {
     // ...
     plugins: [
-        new AnyBarWebpackPlugin()
+        new AnyBarWebpackPlugin({
+            enableNotifications: true
+        })
     ]
     // ...
 };
@@ -49,17 +51,23 @@ module.exports = {
 
 ## API
 
-### `new AnyBarWebpackPlugin([port [, host]])`
+### `new AnyBarWebpackPlugin([port][, host][, options])`
 All arguments are optional. If you want to pass the `host` argument, you need to pass a `port` first.
 
 ### `port`
-Type: `Number`
-Default: `1738`
+- Type: `Number`
+- Default: `1738`
 
 The port the status bar application is running on.
 
 ### `host`
-Type: `String`
-Default: `'127.0.0.1'`
+- Type: `String`
+- Default: `'127.0.0.1'`
 
 The host the status bar application is running on.
+
+### `enableNotifications`
+- Type: `Boolean`
+- Default: `false`
+
+Enable build errors desktop notifications.
